@@ -10,8 +10,27 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^1.1.0",
+    "@astrojs/react": "^3.0.2",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.0",
+    "@astrojs/svelte": "^4.0.2",
     "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/vue": "^3.0.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
     "astro": "^3.1.1",
-    "tailwindcss": "^3.3.3"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^4.2.1",
+    "tailwindcss": "^3.3.3",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "eslint-plugin-astro": "^0.29.0"
   }
 }
