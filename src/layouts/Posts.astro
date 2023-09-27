@@ -1,10 +1,9 @@
 ---
+import { FormatDateWithoutYear } from '../utils/functionDate';
+
 const {
   content: { title, pubDate, image, tags },
 } = Astro.props;
-
-console.log(image);
-
 ---
 
 <section>
@@ -14,7 +13,7 @@ console.log(image);
         {title}
       </h2>
       <span class="flex flex-col gap-4 sm:gap-y-2 md:flex-row md:items-center md:gap-y-0 md:divide-x md:divide-textColor">
-        <time class="pr-2">{pubDate}</time>
+        <time class="pr-2">{FormatDateWithoutYear(pubDate)}</time>
           {
             tags.map((item: unknown) => (
               <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600 dark:bg-purple-600 dark:text-purple-100">

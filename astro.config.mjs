@@ -10,6 +10,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://github.com/FenixSoft-GitHub',
-  base: '/astrobuild'
+  // base: '/astrobuild',
   integrations: [tailwind(), mdx(), react(), vue(), svelte(), sitemap()]
 });
